@@ -1,17 +1,25 @@
+
+
 .header{
   height: 180px;
   width: 100%;
-  background-color: rgb(240, 208, 232);
+  background-color: rgb(233, 147, 157);
   padding-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card-container{
   height: 300px;
   width: 300px;
-  box-shadow: 0px 3px 50px #A5A5A5;
+  justify-content: center;
+  box-shadow: 0px 3px 50px #b19595;
+  overflow: scroll;
 }
 .card-wrapper{
-  width: 270px; 
-  height: 200px; 
+  width: 240px; 
+  height: 150px; 
+  margin: 11px;
+  justify-content: center;
+  background-color: rgb(238, 186, 193);
   box-shadow: 0px 3px 50px #A5A5A5;
   display: flex;
   flex-direction: column;
@@ -23,6 +31,7 @@
 }
 
 .task-holder{
+  text-align: center;
   width: 100%;
   height: 98%;
   padding: 10px 10px;
@@ -32,10 +41,21 @@
 }
 
 .card-header{
+  justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  max-width: 80px;
-  height: 30px;
-  padding: 1px 1px !important;
-  text-align: center;
+  max-width: 220px;
+  height: 80px;
+  padding: 20px 1px !important;
+ 
+}
+.contenedor-tarea { 
+height: 600%;
+width: 100%;
+justify-content: center;
+display: flex;
+flex-wrap: wrap ;
+padding: 10px 100px;
+background-color: rgb(255, 255, 255);
+overflow: auto;
 }

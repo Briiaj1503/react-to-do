@@ -32,15 +32,11 @@ const CrearTarea = ({ modal, toggle , save }) => {
                 <input type="text" className="form-control" value={NombreTarea} onChange={handleChange} name="NombreTarea"/>
 
             </div>
-            <div className="form-group" >
-                <label htmlFor="">Descripcion</label>
-                <textarea rows="5" className="form-control" value={Descripcion} onChange={handleChange} name="Descripcion"></textarea>
-
-            </div>
+          
         </form>
       </ModalBody>
       <ModalFooter>
-        <Button color="primary" onClick={handleSave}>
+        <Button color="danger" onClick={handleSave}>
           Crear
         </Button>{" "}
         <Button color="secondary" onClick={toggle}>
